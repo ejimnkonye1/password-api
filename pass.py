@@ -18,7 +18,7 @@ def generate_password(length, password_types):
     if 'numeric' in password_types:
         characters += string.digits
     if 'symbols' in password_types:
-        characters += "@$&*#"
+        characters += "@$&*##"
 
     if not characters:
         characters = string.ascii_letters + string.digits + "@$&*#"
